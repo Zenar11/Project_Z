@@ -1,1 +1,7 @@
-node_modules/
+# Node build artifacts
+node_modules
+
+# Local Development
+*.env
+*.dev
+.DS_Store
