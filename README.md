@@ -8,6 +8,6 @@ Powered By [Heroku Server](https://heroku.com/).
 ## History
 
 ```
-$ test
+$ 18-03-15 THU	>	Project initial -- Ver 0.0.1
 
 ```
