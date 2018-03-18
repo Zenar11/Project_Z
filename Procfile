@@ -1,1 +1,1 @@
-web: node index.js
+web: cross-env NODE_ENV=production node ./server/main.js
