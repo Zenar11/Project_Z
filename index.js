@@ -16,8 +16,4 @@
 
 
 // 1. Load Server
-let server = require(`${__dirname}/server/server.js`);
-
-// 2. Load controller_loader
-let Controller = require(`${__dirname}/server/loader/ControllerLoader`);
-Controller = Controller(server);
+let server = require(`${__dirname}/server/main`);
