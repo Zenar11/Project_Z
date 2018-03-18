@@ -29,8 +29,8 @@ module.exports = () => {
 	let config = require(path.join(__dirname, '/server.default.setting.json'));
 
 	// 2.5. Setting Server Listening Port
-	app.set('PORT', process.env.PORT || config.server.port || 3000);
-	app.set('dev_Port', config.server.devPort || 4000);
+	app.set('PORT', config.server.port || 3000);
+	app.set('dev_Port', process.env.PORT || config.server.devPort || 4000);
 
 	// 3. Include MiddleWare(Morgan, BodyParser)
 	app.use(morgan('dev'));
